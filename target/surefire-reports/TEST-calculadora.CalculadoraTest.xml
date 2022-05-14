@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="calculadora.CalculadoraTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="calculadora.CalculadoraTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.3+3"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/carlos/Escritorio/DAW/Entornos de desarrollo/Entornos de desarrollo/mavenproject1"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/carlos/Escritorio/DAW/Entornos de desarrollo/Entornos de desarrollo/Calculadora"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="test" value="calculadora.CalculadoraTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/carlos/Escritorio/DAW/Entornos de desarrollo/Entornos de desarrollo/mavenproject1"/>
+    <property name="user.dir" value="/home/carlos/Escritorio/DAW/Entornos de desarrollo/Entornos de desarrollo/Calculadora"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="17.0.3+3"/>
     <property name="os.arch" value="amd64"/>
@@ -23,7 +23,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="maven.ext.class.path" value="/usr/lib/netbeans/java/maven-nblib/netbeans-eventspy.jar:/usr/lib/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="maven.ext.class.path" value="/usr/lib/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
     <property name="classworlds.conf" value="/usr/lib/netbeans/java/maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
@@ -35,17 +35,17 @@
     <property name="jpda.listen" value="true"/>
     <property name="os.version" value="5.16.18-1-MANJARO"/>
     <property name="library.jansi.path" value="/usr/lib/netbeans/java/maven/lib/jansi-native"/>
-    <property name="jpda.address" value="58475"/>
+    <property name="jpda.address" value="42345"/>
     <property name="user.home" value="/home/carlos"/>
     <property name="user.timezone" value="Europe/Madrid"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="17"/>
     <property name="user.name" value="carlos"/>
     <property name="java.class.path" value="/usr/lib/netbeans/java/maven/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="maven.surefire.debug" value="-agentlib:jdwp=transport=dt_socket,server=n,address=58475"/>
+    <property name="maven.surefire.debug" value="-agentlib:jdwp=transport=dt_socket,server=n,address=42345"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=calculadora.CalculadoraTest -DforkMode=once -Dmaven.surefire.debug=-agentlib:jdwp=transport=dt_socket,server=n,address=58475 -Djpda.listen=true -Djpda.address=58475 -Dmaven.ext.class.path=/usr/lib/netbeans/java/maven-nblib/netbeans-eventspy.jar:/usr/lib/netbeans/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=calculadora.CalculadoraTest -DforkMode=once -Dmaven.surefire.debug=-agentlib:jdwp=transport=dt_socket,server=n,address=42345 -Djpda.listen=true -Djpda.address=42345 -Dmaven.ext.class.path=/usr/lib/netbeans/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
     <property name="java.home" value="/usr/lib/jvm/java-17-openjdk"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="calculadora.CalculadoraTest" name="testSumar" time="0.004"/>
+  <testcase classname="calculadora.CalculadoraTest" name="testSumar" time="0.005"/>
   <testcase classname="calculadora.CalculadoraTest" name="testMultiplicar" time="0"/>
   <testcase classname="calculadora.CalculadoraTest" name="testDividir" time="0"/>
   <testcase classname="calculadora.CalculadoraTest" name="testRestar" time="0"/>

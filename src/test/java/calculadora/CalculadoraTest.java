@@ -35,12 +35,12 @@ Calculadora calculadora = new Calculadora();
     public void testMultiplicar() {
         double resultado = calculadora.multiplicar(5.3, 2.8);
         double esperado = 14.84; // 5.3*2.8 = 14.84
-        assertEquals(esperado,resultado,0);
+        assertEquals(esperado,resultado,0.01);
     }
 
     @org.junit.Test
     public void testDividir() {
-        double resultado = calculadora.restar(5.3, 2.8);
+        double resultado = calculadora.dividir(5.3, 2.8);
         double esperado = 1.89; // 4.3/2.8 = 1.89
         assertEquals(esperado,resultado,0.01);
     }
