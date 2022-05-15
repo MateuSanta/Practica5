@@ -66,5 +66,5 @@ En esta imágen se puede ver como al haber dejado como márgen de error cero, lo
  Para corregir este error modificamos el margen de error de los métodos multiplacar y dividir de 0 a 0.01.
  ![Calculadora - Apache NetBeans IDE 13_003](https://user-images.githubusercontent.com/91744455/168467463-f5ffd28a-7a8f-4c10-8fa9-cb3199945469.png)
 
- Ahora que nuestras pruebas se pasan al 100% solo faltar
+ Ahora que nuestras pruebas se pasan al 100% solo faltaría añadir comentarios en formato javadoc y realizar el commit final.
  
