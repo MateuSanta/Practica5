@@ -8,28 +8,10 @@
 
  Entornos de desarrollo
  
- ```mermaid
-    graph LR;
-        master((v1.0.0))------->master1((v1.1.0))
-        
-        
-        
-        master1((v1.1.0))------->masterfinal((v1.2.0))
-        
-    
-    classDef purple fill:#C261EC ,stroke: black,stroke-width:4px
-    classDef red fill:#EC6161 ,stroke: black,stroke-width:4px
 
-    class master purple
-    class master1 purple
-    class masterfinal purple
-    class development red
-    
-        
-    
-```
- 
- 
+ ![diagrama](https://user-images.githubusercontent.com/91744614/168482133-6327ec42-337c-404c-be3a-e4650fe25710.PNG)
+
+
 
 Para la realización de esta práctica hemos utilizado como IDE NetBeans que incorpora por defecto los tests de Junit y hemos utilizado la terminal de git para realizar el control de versiones e interactuar con nuestro repositorio de github.
 
