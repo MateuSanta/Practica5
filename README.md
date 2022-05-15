@@ -1,4 +1,6 @@
 # Calculadora
 
-##Carlos Herrera    Mateu Santandreu   1ºDaw
+##Carlos Herrera 
+##Mateu Santandreu   
+##1ºDaw
 
