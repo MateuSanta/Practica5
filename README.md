@@ -8,7 +8,25 @@
 
  Entornos de desarrollo
  
- 
+ ```mermaid
+    graph LR;
+        master((v1.0.0))------->masterfinal((v1.1.0))
+        master((v1.0.0))---->development(development)
+        development(development)---->master1((v1.1.0))
+        master((v1.1.0))---->development(development)
+        master((v1.1.0))------->masterfinal((v1.2.0))
+        development(development)---->masterfinal((v1.2.0))
+    
+    classDef purple fill:#C261EC ,stroke: black,stroke-width:4px
+    classDef red fill:#EC6161 ,stroke: black,stroke-width:4px
+
+    class master purple
+    class masterfinal purple
+    class development red
+    
+        
+    
+```
  
  
 
