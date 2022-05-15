@@ -43,7 +43,28 @@ Una vez hecho esto se deberá realizar una batería de pruebas utilizando Junit 
  ``git commit -am "commit inicial"``.
  
  Una vez hecho esto rescataremo los comandos que nos había proporcionado github al crear el repositorio y los ejecutaremos desde la terminal, nos pedirá nuestro usuario de github y la contraseña que, en este caso, se tratará del token de acceso que tengamos en nuestra cuenta y ya tendremos nuestro primer commit hecho en github.
+ ![Calculadora : git — Konsole_001](https://user-images.githubusercontent.com/91744455/168466864-73be720c-c33e-4172-9581-bc267f55a965.png)
+
  
+### Tests de Junit
+ En este punto el siguiente paso a realizar es implementar los tests de Junit sobre nuestra calculadora, en NetBeans para generar una clase de prueba bastará con pinchar sobre "tools" y después sobre create/update tests.
+ Nos aparecerá un menú con muchas opciones sobre la creción de los tests, elegiremos como tipo de test Junit4 y desmarcaremos todos los métodos creados por defecto, solo dejaremos marcadas las opciones que aparecen  la derecha para que NetBeans nos cree los "imports" necesarios y nos declare los métodos de prueba para cada método de nuestra clase.
+Por defecto los métodos contendrán una llamada al método "fail" que deberemos sustituir ya que este método siempre arroja un error.
+Lo que pondremos en el cuerpo de cada método de prueba serán dos variables, una que almacenrá el resultado de llamar al método que queremos probar y otra que contendrá el resultado esperado que debería devolver para así poder compararlas.
+ Para comparar las variables haremos una llamada al método "assertEquals()" y le pasaremos tres parámetros, el primero será el resultado esperado, el segundo el resultado obtenido y el tercero el margen de error tolerable.
  
+ ### Segundo commit 
+ Ahora realizaremos el segundo commit a github y actualizaremos la versión a la v1.1.0.
+ ![Calculadora : zsh — Konsole_001](https://user-images.githubusercontent.com/91744455/168467357-78ded861-d6fe-403f-8b1c-04446a891e98.png)
+
  
+ ### Realizando las pruebas
+ 
+ ![Calculadora - Apache NetBeans IDE 13_001](https://user-images.githubusercontent.com/91744455/168467282-5715d49c-5ad1-4660-9e96-6c62af4d6ab8.png)
+En esta imágen se puede ver como al haber dejado como márgen de error cero, los métodos de multiplicar y dividir nos arrojan un fallo cuando los parámetros que le pasamos son números con una parte decimal debido al redondeo, por lo que nos da un 50% de error en nuestra calculadora.
+ 
+ Para corregir este error modificamos el margen de error de los métodos multiplacar y dividir de 0 a 0.01.
+ ![Calculadora - Apache NetBeans IDE 13_003](https://user-images.githubusercontent.com/91744455/168467463-f5ffd28a-7a8f-4c10-8fa9-cb3199945469.png)
+
+ Ahora que nuestras pruebas se pasan al 100% solo faltar
  
