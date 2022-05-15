@@ -13,8 +13,10 @@
         master((v1.0.0))------->master((v1.1.0))
         master((v1.0.0))---->development1(development)
         development1(development)---->master((v1.1.0))
-        master((v1.1.0))---->development2(development)
+        
         master((v1.1.0))------->masterfinal((v1.2.0))
+        master((v1.1.0))---->development2(development)
+        
         development2(development)---->masterfinal((v1.2.0))
     
     classDef purple fill:#C261EC ,stroke: black,stroke-width:4px
@@ -22,7 +24,8 @@
 
     class master purple
     class masterfinal purple
-    class development red
+    class development1 red
+    class development2 red
     
         
     
