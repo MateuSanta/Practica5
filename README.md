@@ -10,9 +10,9 @@
  
  ```mermaid
     graph LR;
-        master((v1.0.0))------->masterfinal((v1.1.0))
+        master((v1.0.0))------->master((v1.1.0))
         master((v1.0.0))---->development(development)
-        development(development)---->master1((v1.1.0))
+        development(development)---->master((v1.1.0))
         master((v1.1.0))---->development(development)
         master((v1.1.0))------->masterfinal((v1.2.0))
         development(development)---->masterfinal((v1.2.0))
